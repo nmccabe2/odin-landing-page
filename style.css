@@ -37,7 +37,29 @@ a:link {
 .internalcontainer {
     display: flex;
     margin-top: 75px;
-    flex-direction: column;
+}
+
+.left {
+    align-self: flex-start;
+    width: 320px;
+    height: 230px;
+    padding-top: 10px;
+    padding-right: 850px;
+}
+
+.right {
+    width: 320px;
+    height: 50%;
+    margin-bottom: 75px;
+}
+
+.button1 {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 75px;
+    height: 25px;
 }
 
 .awesome {
