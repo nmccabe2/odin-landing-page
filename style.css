@@ -4,10 +4,12 @@ body {
     height: 100%; /* force the body to take up the full height */
     margin: 0;  /* enforce no margin for the body */
 }
+
+/* first section */
 .container-1 {
     background-color: #1F2937;  /* dark background color #1F2937 */
     padding-top: 8px;
-    padding-left: 100px;
+    padding-left: 300px;
 }
 
 .header-logo {
@@ -26,7 +28,7 @@ ul {
     justify-content: flex-end;
     gap: 20px;
     margin-top: -20px;
-    margin-right: 100px;
+    margin-right: 250px;
 }
 
 a:link {
@@ -44,7 +46,7 @@ a:link {
     width: 320px;
     height: 230px;
     padding-top: 10px;
-    padding-right: 850px;
+    padding-right: 500px;
 }
 
 .right {
@@ -73,4 +75,24 @@ a:link {
 .secondary {
     color: #E5E7EB;
     font-size: 18px;
+}
+
+/* second section */
+.container-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.random-information {
+    align-self: center;
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+
+
+img {
+    width: 160px;
+    height: auto;
 }
