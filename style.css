@@ -58,7 +58,11 @@ p {
 }
 
 .sign-up-button {
-
+    background-color: #3882F6; 
+    border-radius: 6px;     /* used to round the button border */
+    color: #E5E7EB;       /* text color on button */
+    padding: 4px 20px;      /* change size of button */
+    border: none;           /* remove border on button */
 }
 
 .kissing-cat-image {
