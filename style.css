@@ -1,1 +1,51 @@
+body {
 
+}
+
+.header-awesome-container {
+    background-color: #1F2937;
+}
+
+.logo-and-links-container {
+    
+}
+
+h2 {
+    color: #F9FAF8;     /* color for Header Logo */
+    font-size: 24px;      /* size of Header Logo */
+}
+
+ul {
+    list-style-type: none; /* removes the dots on the list items */
+    font-size: 18px;       /* font-size for links */
+}
+
+a {
+    text-decoration: none; /* removes the line under the links */
+}
+
+.header-link {
+    color: #E5E7EB;      /* font color for header links */
+}
+
+.awesome-description {
+
+}
+
+h1 {
+    font-size: 48px;        /* 48px for Hero Main text */
+    font-weight: bolder;    /* extra-bold for Hero Main text */
+    color: #F9FAF8;       /* color for Hero Main text */
+}
+
+p {
+    font-size: 18px;        /* font-size for paragraph text */
+    color: #E5E7EB;       /* color for paragraph text */
+}
+.kissing-cats {
+
+}
+
+.sign-up-button {
+
+}
