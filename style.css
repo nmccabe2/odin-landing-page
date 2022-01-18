@@ -1,13 +1,17 @@
 body {
-
+    
 }
 
 .header-awesome-container {
     background-color: #1F2937;
+    padding: 12px;                  /* move the container 12px away from the border */
+    
 }
 
 .logo-and-links-container {
-    
+    display: flex;                      /* put flex on the logo and links */
+    align-items: center;                /* center the items in this container */
+    justify-content: space-between;     /* put space between the header and the links */
 }
 
 h2 {
@@ -16,6 +20,8 @@ h2 {
 }
 
 ul {
+    display: flex;         /* used to force the links in a row */
+    gap: 15px;             /* used to separate the links */
     list-style-type: none; /* removes the dots on the list items */
     font-size: 18px;       /* font-size for links */
 }
@@ -26,6 +32,14 @@ a {
 
 .header-link {
     color: #E5E7EB;      /* font color for header links */
+}
+
+.description-and-image {
+    display: flex;         /* this is a container for the description 
+                                and the image. flex is forcing the two to
+                                stay in row format */
+    justify-content: space-between; /* this is forcing the image and h1/p to
+                                         remain separate */
 }
 
 .awesome-description {
@@ -42,10 +56,12 @@ p {
     font-size: 18px;        /* font-size for paragraph text */
     color: #E5E7EB;       /* color for paragraph text */
 }
-.kissing-cats {
-
-}
 
 .sign-up-button {
 
+}
+
+.kissing-cat-image {
+    width: 300px;
+    height: auto;
 }
