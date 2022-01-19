@@ -1,10 +1,10 @@
 body {
-
+    margin: -8px;
 }
 
 .header-awesome-container {
     background-color: #1F2937;
-    padding: 12px;                  /* move the container 12px away from the border */
+    padding: 0px 200px 60px 200px;                  /* move the container 12px away from the border */
     
 }
 
@@ -12,6 +12,7 @@ body {
     display: flex;                      /* put flex on the logo and links */
     align-items: center;                /* center the items in this container */
     justify-content: space-between;     /* put space between the header and the links */
+    padding: 0px 0px 50px 0px;
 }
 
 h2 {
@@ -43,13 +44,14 @@ a {
 }
 
 .awesome-description {
-
+    padding-right: 400px;
 }
 
 h1 {
     font-size: 48px;        /* 48px for Hero Main text */
     font-weight: bolder;    /* extra-bold for Hero Main text */
     color: #F9FAF8;       /* color for Hero Main text */
+    margin: -10px 0px -10px 0px;
 }
 
 p {
@@ -97,4 +99,14 @@ img {                       /* this will only affect the images within the
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic; 
 }
