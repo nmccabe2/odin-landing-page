@@ -74,4 +74,27 @@ img {                       /* this will only affect the images within the
                                 random-information-container */
     width: 200px;
     height: auto;
+    border-radius: 8px;
+}
+
+.some-random-information {
+    display: flex;
+    align-items: center;
+    justify-content: center;    /* center the text in the center */
+    color: #1F2937;           /* text color */
+    font-size: 36px;            /* text size */
+    font-weight: bolder;        /* text weight "extra-bold */
+}
+
+.images-and-subtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
