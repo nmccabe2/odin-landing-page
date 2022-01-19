@@ -1,5 +1,5 @@
 body {
-    
+
 }
 
 .header-awesome-container {
@@ -67,5 +67,11 @@ p {
 
 .kissing-cat-image {
     width: 300px;
+    height: auto;
+}
+
+img {                       /* this will only affect the images within the 
+                                random-information-container */
+    width: 200px;
     height: auto;
 }
