@@ -79,6 +79,10 @@ img {                       /* this will only affect the images within the
     border-radius: 8px;
 }
 
+.random-information-container {
+    padding: 0px 10px 100px 10px;
+}
+
 .some-random-information {
     display: flex;
     align-items: center;
