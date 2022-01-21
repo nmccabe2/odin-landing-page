@@ -5,7 +5,6 @@ body {
 .header-awesome-container {
     background-color: #1F2937;
     padding: 0px 200px 60px 200px;                  /* move the container 12px away from the border */
-    
 }
 
 .logo-and-links-container {
@@ -113,4 +112,62 @@ img {                       /* this will only affect the images within the
     color: #1F2937;
     font-size: 36px;
     font-style: italic; 
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 400px 60px 400px;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bolder;
+    color: #1f2937;
+    font-size: 18px;
+}
+
+.call-to-action-container {
+    height: 100px;
+    margin: 70px 200px 70px 200px;
+    padding: 10px 100px 10px 100px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-call-to {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.call {
+    font-weight: bolder;
+}
+
+.right-call-to {
+    align-self: center;
+}
+
+.call-to-action-sign-up {
+    border-radius: 6px;     /* used to round the button border */
+    color: #E5E7EB;       /* text color on button */
+    padding: 4px 20px;      /* change size of button */
+    background-color: #3882F6;
+    border-color: white;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    height: 75px;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bolder;
 }
